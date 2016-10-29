@@ -61,8 +61,7 @@ lounge --help
 
 ### Running from source
 
-The following commands install the development version of The Lounge. A word of
-caution: while it is the most recent codebase, this is not production-ready!
+The following commands install the development version of The Lounge:
 
 ```sh
 git clone https://github.com/thelounge/lounge.git
@@ -70,6 +69,11 @@ cd lounge
 npm install
 npm start
 ```
+
+A word of caution:
+
+- While it is the most recent codebase, this is not production-ready!
+- This will fail if you run it as root, which is not recommended anyway.
 
 ## Development setup
 
