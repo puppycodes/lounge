@@ -9,3 +9,5 @@ client/fonts/
 client/js/libs.min.js.map
 client/js/libs.min.js
 client/js/lounge.templates.js
+
+ssl/

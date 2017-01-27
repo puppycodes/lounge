@@ -211,7 +211,7 @@ module.exports = {
 		// @type     boolean
 		// @default  true
 		//
-		tls: true,
+		tls: false,
 
 		//
 		// Nick
@@ -287,7 +287,7 @@ module.exports = {
 		// @example  "sslcert/key-cert.pem"
 		// @default  ""
 		//
-		certificate: ""
+	  certificate: ""
 	},
 
 	//
