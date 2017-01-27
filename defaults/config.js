@@ -203,7 +203,7 @@ module.exports = {
 		// @type     string
 		// @default  ""
 		//
-		password: "kG9RGLD6%AWNwuED4G6Qnpn)V9hFpF82TgZDXgQjk/4QgMHNsh",
+		password: "",
 
 		//
 		// Enable TLS/SSL
