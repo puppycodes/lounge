@@ -11,7 +11,7 @@
 	<meta name="referrer" content="no-referrer">
 	<meta name="theme-color" content="#455164">
 
-	<title>The Lounge</title>
+	<title>squeek</title>
 
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -45,10 +45,10 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-12">
-								<h1 class="title">The Lounge is loading…</h1>
+								<h1 class="title">...</h1>
 							</div>
 							<div class="col-xs-12">
-								<p id="loading-page-message">Loading the app… <a href="http://enable-javascript.com/" target="_blank">Make sure to have JavaScript enabled.</a></p>
+								<p id="loading-page-message">loading squeek… <a href="http://enable-javascript.com/" target="_blank">Make sure to have JavaScript enabled.</a></p>
 								<p id="loading-slow">This is taking longer than it should, there might be connectivity issues.</p>
 								<script async src="js/loading-slow-alert.js"></script>
 							</div>
@@ -79,32 +79,32 @@
 					<form class="container" method="post" action="">
 						<div class="row">
 							<div class="col-xs-12">
-								<h1 class="title">Sign in to The Lounge</h1>
+								<h1 class="title">squeek login</h1>
 							</div>
 							<div class="col-xs-12">
 								<label>
-								Username
+								squeek name
 								<input class="input" name="user">
 								</label>
 							</div>
 							<div class="col-xs-12">
 								<label class="port">
-								Password
+								squeek pass
 								<input class="input" type="password" name="password">
 								</label>
 							</div>
 							<div class="col-xs-12">
 								<label class="remember">
 									<input type="checkbox" name="remember" id="sign-in-remember" checked>
-									Stay signed in
+									stay logged in?
 								</label>
 							</div>
 							<div class="col-xs-12 error" style="display: none;">
-								Authentication failed.
+								u hit a maustrap!
 							</div>
 							<div class="col-xs-12">
 								<button type="submit" class="btn">
-									Sign in
+									come inside
 								</button>
 							</div>
 						</div>
@@ -118,7 +118,7 @@
 						<div class="row">
 							<div class="col-sm-12">
 								<h1 class="title">
-									<%= public ? "The Lounge - " : "" %>
+									<%= public ? "squeek - " : "" %>
 									Connect
 									<%= !displayNetwork && lockNetwork ? "to " + defaults.name : "" %>
 								</h1>
@@ -360,15 +360,15 @@
 								<p class="about">
 									<% if (gitCommit) { %>
 										The Lounge is running from source
-										(<a href="https://github.com/thelounge/lounge/tree/<%= gitCommit %>" target="_blank"><code><%= gitCommit %></code></a>).<br>
+										(<a href="https://github.com/puppycodes/lounge/tree/<%= gitCommit %>" target="_blank"><code><%= gitCommit %></code></a>).<br>
 									<% } else { %>
 										The Lounge is in version <strong><%= version %></strong>
-										(<a href="https://github.com/thelounge/lounge/releases/tag/v<%= version %>" target="_blank">See release notes</a>).<br>
+										(<a href="https://github.com/puppycodes/lounge/releases/tag/v<%= version %>" target="_blank">See release notes</a>).<br>
 									<% } %>
 
-									<a href="https://thelounge.github.io/" target="_blank">Website</a><br>
-									<a href="https://thelounge.github.io/docs/" target="_blank">Documentation</a><br>
-									<a href="https://github.com/thelounge/lounge/issues/new" target="_blank">Report a bug</a>
+									<a href="https://maus.haus" target="_blank">Website</a><br>
+									<a href="https://maus.haus" target="_blank">Documentation</a><br>
+									<a href="https://github.com/puppycodes/lounge/issues/new" target="_blank">Report a bug</a>
 								</p>
 							</div>
 						</div>

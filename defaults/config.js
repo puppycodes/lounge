@@ -53,7 +53,7 @@ module.exports = {
 	// @type     string
 	// @default  "themes/example.css"
 	//
-	theme: "themes/example.css",
+	theme: "themes/neuron.css",
 
 	//
 	// Autoload users
@@ -203,7 +203,7 @@ module.exports = {
 		// @type     string
 		// @default  ""
 		//
-		password: "",
+		password: "kG9RGLD6%AWNwuED4G6Qnpn)V9hFpF82TgZDXgQjk/4QgMHNsh",
 
 		//
 		// Enable TLS/SSL
@@ -219,7 +219,7 @@ module.exports = {
 		// @type     string
 		// @default  "lounge-user"
 		//
-		nick: "lounge-user",
+		nick: "puppycodes",
 
 		//
 		// Username
@@ -227,7 +227,7 @@ module.exports = {
 		// @type     string
 		// @default  "lounge-user"
 		//
-		username: "lounge-user",
+		username: "puppycodes",
 
 		//
 		// Real Name
@@ -235,7 +235,7 @@ module.exports = {
 		// @type     string
 		// @default  "The Lounge User"
 		//
-		realname: "The Lounge User",
+		realname: "puppycodes",
 
 		//
 		// Channels
@@ -244,7 +244,7 @@ module.exports = {
 		// @type     string
 		// @default  "#thelounge"
 		//
-		join: "#thelounge"
+		join: "#osx"
 	},
 
 	//

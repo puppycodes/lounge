@@ -24,4 +24,4 @@ deploy:
   on:
     node: '4'
     tags: true
-    repo: thelounge/lounge
+    repo: puppycodes/lounge
